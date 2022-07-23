@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Miriad;
-    src: url('src/assets/fonts/MYRIADPRO-REGULAR.otf') format('truetype'); 
-}
+
 @font-face {
     font-family: Berlin;
     src: url('src/assets/fonts/BRLNSDB.ttf') format('truetype'); 
@@ -9,10 +6,6 @@
 @font-face {
     font-family: Abula;
     src: url('src/assets/fonts/Abula Bold.otf') format('truetype'); 
-}
-@font-face {
-    font-family: Whiskey;
-    src: url('src/assets/fonts/WhiskeyBite-Regular.otf') format('truetype'); 
 }
 @font-face {
     font-family: Crayon;
@@ -60,7 +53,7 @@ main{
     flex-wrap: wrap;
 }
 .imagensItem span{
-    font-family: Miriad;
+    font-family: Ariel;
     font-size: 1.5rem;
 }
 
@@ -115,7 +108,7 @@ main{
     .imgOption{height: 150px;}
 
     .imagensItem span{
-        font-family: Miriad;
+        font-family: Ariel;
         font-size: 1.2rem;
     }
     .botões button{
