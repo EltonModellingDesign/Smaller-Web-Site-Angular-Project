@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Miriad;
-    src: url('src/assets/fonts/MYRIADPRO-REGULAR.otf') format('truetype'); 
-}
+
 @font-face {
     font-family: Berlin;
     src: url('src/assets/fonts/BRLNSDB.ttf') format('truetype'); 
@@ -10,10 +7,7 @@
     font-family: Abula;
     src: url('src/assets/fonts/Abula Bold.otf') format('truetype'); 
 }
-@font-face {
-    font-family: Whiskey;
-    src: url('src/assets/fonts/WhiskeyBite-Regular.otf') format('truetype'); 
-}
+
 @font-face {
     font-family: Crayon;
     src: url('src/assets/fonts/DK Cool Crayon.ttf') format('truetype'); 
@@ -49,7 +43,7 @@
     align-items: center;
 }
 .safe1 div{
-    font-family: Miriad;
+    font-family: Ariel;
     font-size: 1.2rem;
     color: white;
 }
@@ -64,7 +58,7 @@
     align-items: center;
 }
 .safe2 div{
-    font-family: Miriad;
+    font-family: Ariel;
     font-size: 1.2rem;
     color: white;
 }
