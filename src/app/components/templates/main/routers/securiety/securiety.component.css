@@ -1,3 +1,25 @@
+@font-face {
+    font-family: Miriad;
+    src: url('src/assets/fonts/MYRIADPRO-REGULAR.otf') format('truetype'); 
+}
+@font-face {
+    font-family: Berlin;
+    src: url('src/assets/fonts/BRLNSDB.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: Abula;
+    src: url('src/assets/fonts/Abula Bold.otf') format('truetype'); 
+}
+@font-face {
+    font-family: Whiskey;
+    src: url('src/assets/fonts/WhiskeyBite-Regular.otf') format('truetype'); 
+}
+@font-face {
+    font-family: Crayon;
+    src: url('src/assets/fonts/DK Cool Crayon.ttf') format('truetype'); 
+}
+
+
 .safety{
     display: flex;
     justify-content: center;
