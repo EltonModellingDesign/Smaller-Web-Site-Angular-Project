@@ -15,31 +15,10 @@
                 <span>Lorem ipsum dolor sit.</span>
             </div>
         </div>
-        <nav>
-           <button class="botões" [style.text-decoration]="ativo1 ? 'underline' : 'none'" [style.pointer-events]="ativo1 ? 'none' : 'visible'" (click)="mudarAtivo1()" routerLink='/' style="background-color: rgba(255, 255, 17, 0.815);
-            color: black;
-            font-family: Crayon;
-            font-size: 1.8rem;
-            cursor: pointer;
-            border: none;
-            margin: 0px 10px 0 10px;
-            box-shadow: 2px -2px 0.4rem black;">Historia</button>
-            <button class="botões" [style.text-decoration]="ativo2 ? 'underline' : 'none'" [style.pointer-events]="ativo2 ? 'none' : 'visible'" (click)="mudarAtivo2()" routerLink="segurança" style="background-color: rgba(255, 255, 17, 0.815);
-            color: black;
-            font-family: Crayon;
-            font-size: 1.8rem;
-            cursor: pointer;
-            border: none;
-            margin: 0px 10px 0 10px;
-            box-shadow: 2px -2px 0.4rem black;">Segurança</button>
-            <button class="botões" [style.text-decoration]="ativo3 ? 'underline' : 'none'" [style.pointer-events]="ativo3 ? 'none' : 'visible'" (click)="mudarAtivo3()" routerLink="preço" style="background-color: rgba(255, 255, 17, 0.815);
-            color: black;
-            font-family: Crayon;
-            font-size: 1.8rem;
-            cursor: pointer;
-            border: none;
-            margin: 0px 10px 0 10px;
-            box-shadow: 2px -2px 0.4rem black;">Preço</button>
+        <nav class="botões">
+           <button class="botões" [style.text-decoration]="ativo1 ? 'underline' : 'none'" [style.pointer-events]="ativo1 ? 'none' : 'visible'" (click)="mudarAtivo1()" routerLink='/'>Historia</button>
+            <button class="botões" [style.text-decoration]="ativo2 ? 'underline' : 'none'" [style.pointer-events]="ativo2 ? 'none' : 'visible'" (click)="mudarAtivo2()" routerLink="segurança">Segurança</button>
+            <button class="botões" [style.text-decoration]="ativo3 ? 'underline' : 'none'" [style.pointer-events]="ativo3 ? 'none' : 'visible'" (click)="mudarAtivo3()" routerLink="preço">Preço</button>
         </nav>
     </section>
     <section>
