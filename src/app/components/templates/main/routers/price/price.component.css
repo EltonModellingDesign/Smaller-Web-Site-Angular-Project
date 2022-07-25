@@ -1,15 +1,4 @@
-@font-face {
-    font-family: Miriad;
-    src: url('src/assets/fonts/MYRIADPRO-REGULAR.otf') format('truetype'); 
-}
-@font-face {
-    font-family: Whiskey;
-    src: url('src/assets/fonts/WhiskeyBite-Regular.otf') format('truetype'); 
-}
-@font-face {
-    font-family: Crayon;
-    src: url('src/assets/fonts/DK Cool Crayon.ttf') format('truetype'); 
-}
+
 
 .price{
     display: flex;
@@ -19,7 +8,7 @@
     margin: 30px 0px;
 }
 .price h3{
-    font-family: Whiskey;
+    font-family: Ariel;
     font-size: 3rem;
     color: #009245;
     margin: 0px 5px 80px 5px;
@@ -50,13 +39,13 @@
     height: 130px;
 }
 .Babe span{
-    font-family: Crayon;
+    font-family: Ariel;
     color: #2E3192;
     font-size: 1.2rem;
     margin: 5px 0px;
 }
 .Babe div{
-    font-family: Miriad;
+    font-family: Ariel;
     font-size: 1.2rem;
     color: white;
     background-color: black;
@@ -82,13 +71,13 @@
     height: 100px;
 }
 .Child span{
-    font-family: Crayon;
+    font-family: Ariel;
     color: #2E3192;
     font-size: 1.2rem;
     margin-top: 22px;
 }
 .Child div{
-    font-family: Miriad;
+    font-family: Ariel;
     font-size: 1.2rem;
     color: white;
     background-color: black;
