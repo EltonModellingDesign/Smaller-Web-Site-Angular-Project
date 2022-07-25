@@ -1,11 +1,4 @@
-@font-face {
-    font-family: Miriad;
-    src: url('src/assets/fonts/MYRIADPRO-REGULAR.otf') format('truetype'); 
-}
-@font-face {
-    font-family: Abula;
-    src: url('src/assets/fonts/Abula Bold.otf') format('truetype'); 
-}
+
 
 .safety{
     display: flex;
@@ -16,7 +9,7 @@
     padding-bottom: 30px;
 }
 .safety h2{
-    font-family: Abula;
+    font-family: Ariel;
     font-size: 2.4rem;
     margin: 30px 5px;
     text-align: center;
@@ -36,7 +29,7 @@
     align-items: center;
 }
 .safe1 div{
-    font-family: Miriad;
+    font-family: Ariel;
     font-size: 1.2rem;
     color: white;
 }
@@ -51,7 +44,7 @@
     align-items: center;
 }
 .safe2 div{
-    font-family: Miriad;
+    font-family: Ariel;
     font-size: 1.2rem;
     color: white;
 }
