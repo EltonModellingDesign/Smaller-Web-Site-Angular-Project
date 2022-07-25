@@ -1,15 +1,4 @@
-@font-face {
-    font-family: Miriad;
-    src: url('src/assets/fonts/MYRIADPRO-REGULAR.otf') format('truetype'); 
-}
-@font-face {
-    font-family: Berlin;
-    src: url('src/assets/fonts/BRLNSDB.ttf') format('truetype'); 
-}
-@font-face {
-    font-family: Crayon;
-    src: url('src/assets/fonts/DK Cool Crayon.ttf') format('truetype'); 
-}
+
 
 
 
@@ -31,7 +20,7 @@ main{
 }
 
 .title{
-    font-family: Berlin;
+    font-family: Ariel;
     font-size: 4.0rem;
     color: white;
     margin: 90px 10px 90px 10px;
@@ -52,7 +41,7 @@ main{
     flex-wrap: wrap;
 }
 .imagensItem span{
-    font-family: Miriad;
+    font-family: Ariel;
     font-size: 1.5rem;
 }
 
@@ -73,7 +62,7 @@ main{
 .botões button{
     background-color: rgba(255, 255, 17, 0.815);
     color: black;
-    font-family: Crayon;
+    font-family: Ariel;
     font-size: 1.8rem;
     cursor: pointer;
     border: none;
@@ -90,7 +79,7 @@ main{
         background-size:160%;
     }
     .title{
-        font-family: Berlin;
+        font-family: Ariel;
         font-size: 2.5rem;
         margin: 50px 5px;
         text-align: center;
@@ -107,7 +96,7 @@ main{
     .imgOption{height: 150px;}
 
     .imagensItem span{
-        font-family: Miriad;
+        font-family: Ariel;
         font-size: 1.2rem;
     }
     .botões button{
