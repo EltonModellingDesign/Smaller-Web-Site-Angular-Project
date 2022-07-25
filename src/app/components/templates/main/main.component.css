@@ -70,7 +70,7 @@ main{
     margin-top: 75px;
 }
 
-.botões button{
+.botões{
     background-color: rgba(255, 255, 17, 0.815);
     color: black;
     font-family: Crayon;
@@ -110,7 +110,7 @@ main{
         font-family: Miriad;
         font-size: 1.2rem;
     }
-    .botões button{
+    .botões{
         font-size: 1.4rem;
         margin: 0px 5px 0 5px;
         
