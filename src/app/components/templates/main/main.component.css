@@ -66,11 +66,11 @@ main{
     margin: 20px 0;
 }
 
-.botões{
+.buttons{
     margin-top: 75px;
 }
 
-.botões button{
+.botões{
     background-color: rgba(255, 255, 17, 0.815);
     color: black;
     font-family: Crayon;
@@ -79,6 +79,19 @@ main{
     border: none;
     margin: 0px 10px 0 10px;
     box-shadow: 2px -2px 0.4rem black;
+}
+.botõesON{
+    background-color: rgba(255, 255, 17, 0.815);
+    color: black;
+    font-family: Crayon;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+    margin: 0px 10px 0 10px;
+    box-shadow: 2px -2px 0.4rem black;
+    text-decoration: underline;
+    pointer-events: none;
+
 }
 
 @media (max-width:1000px) {
@@ -110,7 +123,12 @@ main{
         font-family: Miriad;
         font-size: 1.2rem;
     }
-   .botões button{
+   .botões{
+        font-size: 1.4rem;
+        margin: 0px 5px 0 5px;
+        
+    }
+    .botõesON{
         font-size: 1.4rem;
         margin: 0px 5px 0 5px;
         
