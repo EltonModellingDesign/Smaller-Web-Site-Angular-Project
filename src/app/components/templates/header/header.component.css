@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Crayon;
+    src: url('src/assets/fonts/DK Cool Crayon.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: CrayonL;
+    src: url('src/assets/fonts/DK Crayon Crumble.ttf') format('truetype'); 
+}
+
+header{
+    display: flex;
+    justify-content:center;
+}
+.board{
+    background: #1A3A19;
+    border-bottom: solid 10px #3A2B21;
+    border-right: solid 10px #3A2B21;
+    border-left: solid 10px #3A2B21;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 850px;
+    display: flex;
+    justify-content:space-between;
+    transform: translateY(-10px);
+}
+.logo{
+    height: 100px;
+    margin: 30px 0px 10px 10px;
+    cursor: pointer;
+}
+div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 50px;
+
+}
+span{
+    font-family: CrayonL;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li{
+    margin:5px;
+    font-family: Crayon;
+    color:#FFFF00;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.listras{
+    color: white;
+    font-size: 1.8rem;
+    cursor: default;
+}
+
+.option:active{
+    text-decoration: underline;
+
+}
+
+.toggle{
+    display: none;
+}
+
+@media (max-width:875px) {
+    .logo{height: 80px;}
+    .toggle{display: inline-block;margin-left: 30px;height: 50px;margin:10px 5px 0px 30px;}
+    ul,div{display: none;margin-bottom: 10px;}
+    .on{display: inline-block;}
+    .listras{display: none;}
+
+}
+
