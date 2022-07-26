@@ -16,9 +16,9 @@
             </div>
         </div>
         <nav class="buttons">
-           <span  class='botõesON' routerLink='/'>Historia</span>
-            <span  [class]="ativo2 ? 'botõesON' : 'botões'" (click)="mudarAtivo2()" routerLink="segurança">Segurança</span>
-            <span  [class]="ativo3 ? 'botõesON' : 'botões'" (click)="mudarAtivo3()" routerLink="preço">Preço</span>
+            <button [style.text-decoration]="ativo1 ? 'underline' : 'none'" [style.pointer-events]="ativo1 ? 'none' : 'visible'" (click)="mudarAtivo1()" routerLink='/'>Historia</button>
+            <button [style.text-decoration]="ativo2 ? 'underline' : 'none'" [style.pointer-events]="ativo2 ? 'none' : 'visible'" (click)="mudarAtivo2()" routerLink="segurança">Segurança</button>
+            <button [style.text-decoration]="ativo3 ? 'underline' : 'none'" [style.pointer-events]="ativo3 ? 'none' : 'visible'" (click)="mudarAtivo3()" routerLink="preço">Preço</button>
         </nav>
     </section>
     <section>
